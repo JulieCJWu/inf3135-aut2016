@@ -14,8 +14,20 @@ typedef enum statut {OK,
  * @returns  La dictionnaire vide
  */
 Dictionnaire dictionnaireCreer();
+
+/**
+ * Ajoute un element sur le dessus de la dictionnaire.
+ *
+ * Although we don't need to give names for the parameters, 
+ *   it is better to give so that we can document down the usage in the javadoc.
+ *
+ * @param (dictionnaire)   Un pointeur vers la dictionnaire
+ * @param (char)           ?
+ * @param (void)           ?
+ */
 Dictionnaire dictionnaireInsereEntree
              (struct dictionnaire *, char *, void *);
+
 int          dictionnaireSupprimerEntree
              (char *, Definition *, Dictionnaire *);
 Statut       dictionnaireLitEntree
