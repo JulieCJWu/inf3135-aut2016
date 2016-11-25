@@ -43,7 +43,7 @@ char *treemapGet(const TreeMap *t, char *key);
 void treemapSet(TreeMap *t, char *key, char *value);
 
 /**
- * Retourne vrai si et seulement si la cle apparaît dans la table.
+ * Retourne vrai si et seulement si la cle apparait dans la table.
  *
  * @param t    La table associative
  * @param key  La cle a rechercher
